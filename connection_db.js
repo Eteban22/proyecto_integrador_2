@@ -1,13 +1,7 @@
-//Importo módulo MongoClient del paquete mongodb.
+//Importo módulos
 const { MongoClient } = require('mongodb');
-
-//Declaro módulo path.
 const path = require('path');
-
-//Importo dotenv para cargar variables de entorno en '.env'
 require('dotenv').config({ path: path.join(__dirname, '.env') });
-
-//Declaro el cliente para MongoDB.
 const client = new MongoClient(process.env.DATABASE_URL);
 
 //Función para conectar a MongoDB.
