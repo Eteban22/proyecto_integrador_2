@@ -3,7 +3,7 @@
     "version": "1.0.8",
     "description": "Curso de Programación BackEnd - UNTREF",
     "scripts": {
-        "start": "node --watch --no-warnings ./src/server.js",
+        "start": "node --no-warnings ./src/server.js",
         "start-2": "nodemon ./src/server.js",
         "test": "node --no-warnings --experimental-fetch ./tests/proyecto2.test.js",
         "stop": "killall -9 node",
